@@ -1,0 +1,19 @@
+default:
+  tempC:
+    min: 18
+    max: 26
+  humidityPct:
+    min: 50
+    max: 75
+  maxTransportHours: 120
+
+produceTypeOverrides:
+  Organic Watermelon:
+    tempC: { min: 10, max: 15 }
+    humidityPct: { min: 85, max: 95 }
+    maxTransportHours: 96
+
+  Organic Cabbage:
+    tempC: { min: 0, max: 4 }
+    humidityPct: { min: 90, max: 98 }
+    maxTransportHours: 120
